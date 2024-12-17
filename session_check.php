@@ -6,7 +6,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // Check if the user is not logged in
 if (!isset($_SESSION['matric'])) {
-    header("Location: login.html"); // Redirect to login page
+    header("Location: login_page.php"); // Redirect to login page
     exit();
 }
 ?>
